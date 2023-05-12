@@ -86,9 +86,9 @@ This project was created using the following technologies.
 
 
 
-- Github: [@bert-hutapea](https://github.com/berthutapea)
-- Linkedin: [@gilbert-hutapea](https://www.linkedin.com/in/gilberthutapea/)
 
+
+- Linkedin: [gilberthutapea](https://www.linkedin.com/in/gilberthutapea/)
 
 
 ## License

@@ -9,10 +9,9 @@
       - [Frontend](#frontend)
       - [Backend](#backend)
       - [Database](#database)
-  <!-- * [📸 Screenshots](#screenshots) -->
+  * [📸 Screenshots](#screenshots)
   
   * [License](#license)
-
 
 
 ## Configuration and Setup

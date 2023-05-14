@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 // Let set up our default styling
@@ -117,7 +117,7 @@ video {
         margin: auto;
         justify-content: space-between;
         border-radius: 10px;
-        background: hsl(0, 0%, 91%);
+        background: hsl(0, 8%, 92%);
 
         .videoDiv {
             position: relative;
@@ -138,15 +138,16 @@ video {
                 position: absolute;
             }
 
-            video {
-                height: 100%;
-                width: 100%;
-                object-fit: cover;
-                top: 0;
-                bottom: 0;
-                right: 0;
-                left: 0;
-            }
+            // video {
+            //     height: 100%;
+            //     width: 100%;
+            //     object-fit: cover;
+            //     top: 0;
+            //     bottom: 0;
+            //     right: 0;
+            //     left: 0;
+            // }
+
 
             .textDiv {
                 position: relative;
@@ -181,7 +182,7 @@ video {
 
                 .btn {
                     background: var(--whiteColor);
-                    color: var(--primaryColor);
+                    color: var(--blackColor);
                     padding: .8rem 1.5rem;
                     border-radius: 10px;
                     font-weight: 400;
@@ -252,7 +253,7 @@ video {
 
                 .btn {
                     padding: .8rem;
-                    background: var(--primaryColor);
+                    background: rgb(110, 194, 222);
                     border-radius: 10px;
                     color: var(--whiteColor);
                     align-items: center;
@@ -269,7 +270,7 @@ video {
                     }
 
                     &:hover {
-                        background: var(--hoverColor);
+                        background: lightblue;
                         color: var(--blackColor);
 
                         .icon {

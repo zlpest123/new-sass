@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 :root {
@@ -114,7 +114,7 @@ video {
   margin: auto;
   justify-content: space-between;
   border-radius: 10px;
-  background: hsl(0, 0%, 91%);
+  background: hsl(0, 8%, 92%);
 }
 .loginPage .container .videoDiv,
 .registerPage .container .videoDiv {
@@ -136,17 +136,6 @@ video {
 .registerPage .container .videoDiv video,
 .registerPage .container .videoDiv .footerDiv {
   position: absolute;
-}
-.loginPage .container .videoDiv video,
-.registerPage .container .videoDiv video {
-  height: 100%;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
 }
 .loginPage .container .videoDiv .textDiv,
 .registerPage .container .videoDiv .textDiv {
@@ -173,8 +162,7 @@ video {
   left: 10px;
   right: 10px;
   justify-content: space-between;
-  -webkit-backdrop-filter: blur(1px);
-          backdrop-filter: blur(1px);
+  backdrop-filter: blur(1px);
   border-radius: 10px;
 }
 .loginPage .container .videoDiv .footerDiv .text,
@@ -184,7 +172,7 @@ video {
 .loginPage .container .videoDiv .footerDiv .btn,
 .registerPage .container .videoDiv .footerDiv .btn {
   background: var(--whiteColor);
-  color: var(--primaryColor);
+  color: var(--blackColor);
   padding: 0.8rem 1.5rem;
   border-radius: 10px;
   font-weight: 400;
@@ -252,7 +240,7 @@ video {
 .loginPage .container .formDiv .form .btn,
 .registerPage .container .formDiv .form .btn {
   padding: 0.8rem;
-  background: var(--primaryColor);
+  background: rgb(110, 194, 222);
   border-radius: 10px;
   color: var(--whiteColor);
   align-items: center;
@@ -270,7 +258,7 @@ video {
 }
 .loginPage .container .formDiv .form .btn:hover,
 .registerPage .container .formDiv .form .btn:hover {
-  background: var(--hoverColor);
+  background: lightblue;
   color: var(--blackColor);
 }
 .loginPage .container .formDiv .form .btn:hover .icon,
@@ -306,9 +294,6 @@ video {
   box-shadow: 0 5px 10px rgb(194, 194, 194);
 }
 
-/* Let ge in our Dashboard Component - Please note that this
-already developed and the link is in the description if you
-wanna see how to create/build it along. */
 @media screen and (max-width: 990px) {
   .heading {
     flex-direction: column;
@@ -423,4 +408,6 @@ wanna see how to create/build it along. */
 }
 ::-webkit-scrollbar {
   display: none;
-}/*# sourceMappingURL=App.css.map */
+}
+
+/*# sourceMappingURL=App.css.map */

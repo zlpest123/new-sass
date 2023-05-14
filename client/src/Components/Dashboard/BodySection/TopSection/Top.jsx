@@ -4,9 +4,9 @@ import { BiSearchAlt } from 'react-icons/bi'
 import { TbMessageCircle } from 'react-icons/tb'
 import { MdOutlineNotificationsNone } from 'react-icons/md'
 import { BsArrowRightShort, BsQuestionCircle } from 'react-icons/bs'
-import img from '../../../../Assets/gilbert.jpg'
+import img from '../../../../Assets/person3.jpg'
 import img2 from '../../../../Assets/images (2).png'
-import video from '../../../../Assets/video.mp4'
+import background from '../../../../Assets/background.jpg'
 
 const Top = () => {
   return (
@@ -14,7 +14,7 @@ const Top = () => {
       <div className="headerSection flex">
         <div className="title">
           <h1>Welcome to Planti.</h1>
-          <p>Hello Gilbert, Welcome back!</p>
+          <p>Hello person3, Welcome back!</p>
         </div>
 
         <div className="searchBar flex">
@@ -42,8 +42,7 @@ const Top = () => {
             <button className="btn transparent">Top Sellers</button>
           </div>
 
-          <div className="videoDiv">
-            <video src={video} autoPlay loop muted></video>
+          <div className="videoDiv" style={{backgroundImage: `url(${background})`}}>
           </div>
         </div>
 

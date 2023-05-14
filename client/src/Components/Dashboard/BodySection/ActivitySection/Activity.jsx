@@ -1,11 +1,11 @@
 import React from 'react'
 import './activity.css'
 import { BsArrowRightShort } from 'react-icons/bs'
-import user from '../../../../Assets/aldi.jpg'
-import user1 from '../../../../Assets/dadang.jpg'
-import user2 from '../../../../Assets/gilbert.jpg'
-import user3 from '../../../../Assets/aldi.jpg'
-import user4 from '../../../../Assets/dadang.jpg'
+import user from '../../../../Assets/person1.jpg'
+import user1 from '../../../../Assets/person2.jpg'
+import user2 from '../../../../Assets/person3.jpg'
+import user3 from '../../../../Assets/person1.jpg'
+import user4 from '../../../../Assets/person2.jpg'
 
 const Activity = () => {
   return (
@@ -22,7 +22,7 @@ const Activity = () => {
         <div className="singleCustomer flex">
           <img src={user} alt="Customer Image" />
           <div className="customerDetails">
-            <span className="name">Gilbert Hutapea</span>
+            <span className="name">person1 </span>
             <small>Ordered a new plant</small>
           </div>
           <div className="duration">
@@ -33,7 +33,7 @@ const Activity = () => {
         <div className="singleCustomer flex">
           <img src={user1} alt="Customer Image" />
           <div className="customerDetails">
-            <span className="name">Gilbert Hutapea</span>
+            <span className="name">person2 </span>
             <small>Ordered a new plant</small>
           </div>
           <div className="duration">
@@ -44,7 +44,7 @@ const Activity = () => {
         <div className="singleCustomer flex">
           <img src={user2} alt="Customer Image" />
           <div className="customerDetails">
-            <span className="name">Gilbert Hutapea</span>
+            <span className="name">person3 </span>
             <small>Ordered a new plant</small>
           </div>
           <div className="duration">
@@ -55,7 +55,7 @@ const Activity = () => {
         <div className="singleCustomer flex">
           <img src={user3} alt="Customer Image" />
           <div className="customerDetails">
-            <span className="name">Gilbert Hutapea</span>
+            <span className="name">person1 </span>
             <small>Ordered a new plant</small>
           </div>
           <div className="duration">
@@ -65,7 +65,7 @@ const Activity = () => {
         <div className="singleCustomer flex">
           <img src={user4} alt="Customer Image" />
           <div className="customerDetails">
-            <span className="name">Gilbert Hutapea</span>
+            <span className="name">person2 </span>
             <small>Ordered a new plant</small>
           </div>
           <div className="duration">

@@ -1,6 +1,5 @@
 import React from 'react'
 import './sidebar.css'
-import logo from '../../../Assets/logo.png'
 import { IoMdSpeedometer } from 'react-icons/io'
 import { MdDeliveryDining, MdOutlineExplore, MdOutlinePermContactCalendar } from 'react-icons/md'
 import { BsTrophy, BsCreditCard2Front, BsQuestionCircle } from 'react-icons/bs'
@@ -12,7 +11,6 @@ const Sidebar = () => {
     <div className='sideBar grid'>
 
       <div className="logoDiv flex">
-        <img src={logo} alt="Logo" />
         <h2>Planti.</h2>
       </div>
 

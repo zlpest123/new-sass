@@ -1,7 +1,4 @@
-
- 
-
-<br/>
+# MySQL, Express, React(SCSS), Node.js
 
   * [Configuration and Setup](#configuration-and-setup)
   * [Key Features](#key-features)
@@ -10,37 +7,28 @@
       - [Backend](#backend)
       - [Database](#database)
   * [📸 Screenshots](#screenshots)
-  
-  * [License](#license)
 
 
 ## Configuration and Setup
-
-In order to run this project locally, simply fork and clone the repository or download as zip and unzip on your machine.
-
-- Open the project in your prefered code editor.
-- Go to terminal -> New terminal (If you are using VS code)
-- Split your terminal into two (run the client on one terminal and the server on the other terminal)
 
 In the first terminal
 
 ```
 $ cd client
-$ npm install (to install client-side dependencies)
-$ npm run dev(to start the client)
+$ npm install [--legacy-peer-deps] (The option flag allows you to bypass peer dependency conflicts when installing packages)
+$ npm run dev
 ```
+
+- Create your MySQL database, which you will use as your database
+- Open xampp and start the Apache and MySQL services
+- Once MySQL is running, click on "Admin" to open the phpMyAdmin interface
 
 In the second terminal
 
-- Create your MySQL database, which you will use as your database
-- Supply the following credentials
-
 ```
-# --- Terminal ---
-
 $ cd server
-$ npm install (to install server-side dependencies)
-$ npm start (to start the server)
+$ npm install [--legacy-peer-deps]
+$ npm start
 ```
 
 ##  Key Features
@@ -49,11 +37,7 @@ $ npm start (to start the server)
 - Authentication using JWT Tokens
 - Responsive Design
 
-<br/>
-
 ##  Technologies used
-
-This project was created using the following technologies.
 
 ####  Frontend 
 
@@ -79,38 +63,4 @@ This project was created using the following technologies.
 
  ##  Screenshots 
 
-
-
-
-
-
-
-
-
-
-
-
-
-## License
-
-MIT License
-
-
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+![Screenshot](./client/src/Assets/Screenshot.png)
